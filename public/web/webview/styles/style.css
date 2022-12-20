@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+    font-family: monospace;
+    font-size: 16px;
+}
+
+html, body {
+    background: #1b1b1d;
+}
+
+.console-section {
+    background: #1b1b1d;
+    font-size: 16px;    
+    flex-direction: column;
+    display: flex;
+
+    width: 100%;
+    height: 100%;
+}
+
+.command-line {
+    max-width: 100%;
+    display: block;
+    font-size: 20px;  
+    color: white; 
+}
+
+.magic-symbol {
+    color: rgb(42, 112, 216);
+    font-size: 20px;
+    user-select: none;  
+    display: inline-block;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: hsl(0, 0%, 6%);
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: hsl(0, 0%, 10%);
+    transition: all 256ms ease;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: hsl(0, 0%, 14%);
+  }

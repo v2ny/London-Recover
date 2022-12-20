@@ -1,0 +1,41 @@
+yarn run v1.22.19
+$ $(yarn bin)/pm2 start ./bot/main.ts --watch -f
+[PM2] Applying action restartProcessId on app [main](ids: [ 0, 1, 2, 3, 4, 5 ])
+[PM2] [main](1) ✓
+[PM2] [main](2) ✓
+[PM2] [main](3) ✓
+[PM2] [main](4) ✓
+[PM2] [main](5) ✓
+[PM2] [main](0) ✓
+[PM2] Process successfully started
+⇆ PM2+ activated | Instance Name: nexz-srv-0df2 | Dash: https://app.pm2.io/#/r/ota3akg2y7myq8l
+┌─────┬─────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id  │ name    │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├─────┼─────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 0   │ main    │ default     │ 1.0.0   │ fork    │ 14915    │ 0      │ 6    │ stopping  │ 0%       │ 0b       │ nexz-srv │ disabled │
+│ 1   │ main    │ default     │ 1.0.0   │ fork    │ 14881    │ 0      │ 0    │ stopping  │ 0%       │ 0b       │ nexz-srv │ enabled  │
+│ 2   │ main    │ default     │ 1.0.0   │ fork    │ 14887    │ 0s     │ 2    │ online    │ 0%       │ 58.7mb   │ nexz-srv │ enabled  │
+│ 3   │ main    │ default     │ 1.0.0   │ fork    │ 14893    │ 0s     │ 0    │ online    │ 0%       │ 44.7mb   │ nexz-srv │ enabled  │
+│ 4   │ main    │ default     │ 1.0.0   │ fork    │ 14896    │ 0s     │ 0    │ online    │ 0%       │ 59.7mb   │ nexz-srv │ enabled  │
+│ 5   │ main    │ default     │ 1.0.0   │ fork    │ 14907    │ 0s     │ 0    │ online    │ 0%       │ 40.9mb   │ nexz-srv │ enabled  │
+└─────┴─────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+[PM2][WARN] Current process list is not synchronized with saved list. App index index differs. Type 'pm2 save' to synchronize.
+Done in 1.11s.
+yarn run v1.22.19
+$ $(yarn bin)/pm2 start ./bot/main.ts --watch -f --name LondonRetriever
+[PM2] Starting /home/nexz-srv/dev/London-Recover/bot/main.ts in fork_mode (1 instance)
+[PM2] Done.
+⇆ PM2+ activated | Instance Name: nexz-srv-0df2 | Dash: https://app.pm2.io/#/r/ota3akg2y7myq8l
+┌─────┬────────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id  │ name               │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├─────┼────────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 6   │ LondonRetriever    │ default     │ 1.0.0   │ fork    │ 15558    │ 0s     │ 0    │ online    │ 0%       │ 24.4mb   │ nexz-srv │ enabled  │
+│ 0   │ main               │ default     │ 1.0.0   │ fork    │ 14930    │ 3m     │ 7    │ online    │ 0%       │ 281.1mb  │ nexz-srv │ disabled │
+│ 1   │ main               │ default     │ 1.0.0   │ fork    │ 0        │ 0      │ 1    │ stopped   │ 0%       │ 0b       │ nexz-srv │ disabled │
+│ 2   │ main               │ default     │ 1.0.0   │ fork    │ 0        │ 0      │ 3    │ stopped   │ 0%       │ 0b       │ nexz-srv │ disabled │
+│ 3   │ main               │ default     │ 1.0.0   │ fork    │ 0        │ 0      │ 1    │ stopped   │ 0%       │ 0b       │ nexz-srv │ disabled │
+│ 4   │ main               │ default     │ 1.0.0   │ fork    │ 0        │ 0      │ 1    │ stopped   │ 0%       │ 0b       │ nexz-srv │ disabled │
+│ 5   │ main               │ default     │ 1.0.0   │ fork    │ 0        │ 0      │ 1    │ stopped   │ 0%       │ 0b       │ nexz-srv │ disabled │
+└─────┴────────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+[PM2][WARN] Current process list is not synchronized with saved list. App index index differs. Type 'pm2 save' to synchronize.
+Done in 0.73s.
