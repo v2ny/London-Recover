@@ -2,7 +2,7 @@
   "name": "London-Channels",
   "version": "1.0.0",
   "description": "A Discord Bot Built On v14",
-  "main": ".//dist/main.js",
+  "main": "./dist/main.js",
   "repository": "https://github.com/p-s2/London-Channels.git",
   "author": "p-s2, Moutassem",
   "license": "GNU",
